@@ -1,0 +1,18 @@
+#create abstract and empty class
+
+class Smart_watch:
+    pass
+class drone:
+    pass
+
+#create abstract or empty method/function
+def man_can_fly():
+    pass
+
+def bike_can_fly():
+    pass
+
+#create abstract or empty loop
+data="hello"
+for i in data:
+    pass
