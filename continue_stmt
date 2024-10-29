@@ -1,0 +1,11 @@
+# write a python prog using break to stop working money dispensary machine when fake notes series detected
+list_series = [1111, 1112, 1113, 1114, 1121, 1122, 1115, 1116]
+# here 1121 and 1122 are fake notes series
+for f in list_series:
+    if f == 1121 or f == 1122:
+        print("\nHey!Its illegal to transmit fake notes")
+        continue
+    else:
+        print(f, end="  ")
+print("\n")
+
