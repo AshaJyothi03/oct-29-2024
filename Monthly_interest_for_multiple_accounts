@@ -1,0 +1,17 @@
+#WRITE banking application 
+'''
+Assignment 2: Banking Application - Generate Monthly Interest for Multiple Accounts
+Problem:
+Write a program that calculates and displays the interest for multiple customer accounts for each month of a year. Assume each account has a fixed interest rate.
+Requirements:
+•	Create a list of account balances for different customers.
+•	Use nested loops to calculate the interest for each account for each month.
+•	Display the interest for each customer at the end of the year.
+'''
+account_bal = [300000,32000,45000,98000,7600]
+interest_rate = 0.05
+num_months = 12
+for i in account_bal:
+  for j in range(num_months):
+    interest=i*interest_rate
+  print(interest)
